@@ -1,0 +1,10 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Project 1 - Customer Support Dashboard</title>
+<style>body{font-family:Arial;max-width:900px;margin:20px auto;padding:0 16px} .kpi{display:flex;gap:12px} .card{flex:1;background:#eff6ff;padding:14px;border-radius:10px;text-align:center} .card b{font-size:28px} img{width:100%;border:1px solid #ddd;border-radius:10px;margin:12px 0} </style></head>
+<body><h1>Project 1 - Customer Support Analytics</h1><p>8,469 tickets | Closed only CSAT = honest CSAT | PII removed</p>
+<div class='kpi'><div class='card'><b>8,469</b><br>Total Tickets</div><div class='card'><b>32.7%</b><br>Closed Rate</div><div class='card'><b>2.99 / 5</b><br>Avg CSAT (Closed n=2769)</div><div class='card'><b>2,881</b><br>Pending - Biggest Leak</div></div>
+<h2>Insight 1: Chat is best channel, Phone is worst</h2><img src='charts/csat_by_channel.png'>
+<h2>Insight 2: No single ticket type dominates - systemic issue</h2><img src='charts/tickets_by_type.png'>
+<h2>Insight 3: CSAT is flat across 1-5 - not a few angry customers</h2><img src='charts/csat_dist.png'>
+<h2>Insight 4: Priority does not explain speed/CSAT</h2><img src='charts/resolution_by_priority.png'>
+<h2>Now What - Monday Action</h2><ol><li>Fix Pending bucket: nudge after 48h, target 2881 -&gt; &lt;1500</li><li>Move Phone playbook to Chat scripts</li><li>Re-check in 1 week: Closed rate, CSAT, Pending</li></ol>
+<p><b>Repo:</b> Link 1 - GitHub Repo &nbsp;|&nbsp; <b>Result:</b> Link 2 - This Dashboard</p></body></html>

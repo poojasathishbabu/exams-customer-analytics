@@ -1,0 +1,26 @@
+{
+  "total": 8469,
+  "closed": 2769,
+  "closed_rate_pct": 32.7,
+  "csat_mean": 2.99,
+  "median_resolution_hours": 0.2,
+  "csat_by_channel": {
+    "Chat": 3.08,
+    "Email": 2.96,
+    "Phone": 2.95,
+    "Social media": 2.97
+  },
+  "tickets_by_type": {
+    "Refund request": 1752,
+    "Technical issue": 1747,
+    "Cancellation request": 1695,
+    "Product inquiry": 1641,
+    "Billing inquiry": 1634
+  },
+  "median_res_by_priority": {
+    "Critical": 0.4,
+    "High": 0.1,
+    "Low": 0.4,
+    "Medium": 0.0
+  }
+}
