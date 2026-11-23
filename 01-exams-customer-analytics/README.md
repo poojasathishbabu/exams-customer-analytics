@@ -27,13 +27,13 @@
 
 ## How to Run
 pip install -r requirements.txt
+
 python src/clean.py
+
 python src/analysis.py
+
 Open dashboard.html for the result dashboard.
 
-## Links (for Resume)
-- Link 1 - Repo: github.com/<your-username>/01-exams-customer-analytics
-- Link 2 - Live Result Dashboard: <your-dashboard-link> (dashboard.html / Dashboard (HTML) / Streamlit)
 
 ## Tests
 python src/test_clean.py  # checks no PII + CSAT not mean-filled
